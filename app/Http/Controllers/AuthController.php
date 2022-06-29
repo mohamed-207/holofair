@@ -96,6 +96,7 @@ class AuthController extends Controller
                          'group'=>2
                      ]);
                  }
+                 else return response()->json('',404);
 
              }
 
